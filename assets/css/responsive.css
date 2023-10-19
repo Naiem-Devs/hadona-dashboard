@@ -1,0 +1,69 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .container-fluid{
+    padding: 0 20px;
+}
+.side_nav_wrp{
+    display: none;
+}
+.header_option ul {
+    gap: 20px;
+}
+
+.mobile_header {
+    width: 80px !important;
+    display: flex !important;
+    justify-content: end;
+}
+
+.mobile_header .src_box {
+    display: none;
+}
+
+.src_box input {
+    display: none;
+}
+
+.src_box {
+    padding: 0 13px;
+}
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
+
+@media (max-width: 575px) {
+    .mobile_header .src_box {display: block;width: max-content;align-items: center;display: flex;}
+
+.mobile_header {
+    width: 100% !important;
+    gap: 15px;
+    align-items: center;
+    justify-content: end;
+}
+}
